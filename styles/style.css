@@ -1,0 +1,115 @@
+/* body related styles */
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+/* shared text color */
+.primary-text-color {
+    color: #FD6E0A;
+}
+
+/* header related styles */
+.header {
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-size: 100px 650px;
+    background-color: #FFF8F3;
+}
+
+/* sec-1 related styles */
+.sec-1 {
+    background-color: #FFF8F3;
+    margin: 0px 0px 0px 125px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 570px 370px;
+    background-image: url('../images/header_bg.png');
+}
+
+/* nav related styles */
+nav {
+    margin-right: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.nav-title:hover {
+    cursor: pointer;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+/* common button styles */
+.primary-button {
+    padding: 15px 35px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* banner related styles */
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 320px;
+    margin-top: 50px;
+}
+
+.banner img {
+    width: 500px;
+    height: 480px;
+}
+
+.banner-content p {
+    color: #757575;
+}
+
+.banner-content h3 {
+    margin: 0px;
+    color: #474747;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.banner-content h1 {
+    font-size: 55px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.download-button {
+    font-weight: 600;
+    margin-right: 25px
+}
+
+.contact-button {
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
