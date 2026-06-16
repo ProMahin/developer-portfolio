@@ -116,7 +116,7 @@ nav ul {
 
 /* sec-2 realated css */
 .sec-2 {
-    margin: 130px 230px 0px 230px;
+    margin: 130px 210px 0px 210px;
     padding: 130px 150px;
     background-color: #FFF8F3;
     border-radius: 10px;
@@ -145,7 +145,7 @@ nav ul {
 
 .about-items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .item-title {
