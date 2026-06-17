@@ -114,12 +114,17 @@ nav ul {
     color: #FD6E0A;
 }
 
-/* sec-2 realated css */
+/* main body related styles */
+.main {
+    margin: 0 210px;
+}
+
+/* sec-2 related css */
 .sec-2 {
-    margin: 130px 210px 0px 210px;
     padding: 130px 150px;
     background-color: #FFF8F3;
     border-radius: 10px;
+    margin-top: 120px;
 }
 
 #about-me {
@@ -156,4 +161,52 @@ nav ul {
 .item-description {
     margin-top: 10px;
     font-weight: bold;
+}
+
+/* sec-3 related styles */
+.sec-3 {
+    margin-top: 120px;
+}
+
+.sec-3-texts {
+    text-align: center;
+}
+
+.sec-3-texts h2 {
+    margin-top: 0px;
+}
+
+.sec-3-texts p {
+    padding: 0 100px;
+}
+
+/* card related styles */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    width: 155px;
+    height: 270px;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 18px gray;
+}
+
+.card h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-title {
+    margin-bottom: 40px;
+}
+
+.card p {
+    color: #757575;
 }
