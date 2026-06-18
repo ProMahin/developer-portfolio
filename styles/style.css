@@ -63,7 +63,7 @@ nav ul {
 /* common button styles */
 .primary-button {
     padding: 15px 35px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     color: #FFFFFF;
     background-color: #FD6E0A;
@@ -103,12 +103,12 @@ nav ul {
 }
 
 .download-button {
-    font-weight: 600;
+    font-weight: 500;
     margin-right: 25px
 }
 
 .contact-button {
-    font-weight: 600;
+    font-weight: 500;
     background-color: white;
     border: 1px solid #FD6E0A;
     color: #FD6E0A;
@@ -209,4 +209,136 @@ nav ul {
 
 .card p {
     color: #757575;
+}
+
+/* sec-4 related styles */
+.sec-4 {
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+.sec-4-texts h2 {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.sec-4-resume-container {
+    display: flex;
+    gap: 25px;
+    margin-top: 0px;
+}
+
+.resume-column-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.experience-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.experience-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume-description {
+    margin-bottom: 0px;
+}
+
+.download-button-cv {
+    padding: 15px 25px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.text-center-button {
+    text-align: center;
+}
+
+/* sec-5 related styles */
+.sec-5-footer-container {
+    background-color: #FFF8F3;
+    margin-top: 120px;
+    display: flex;
+    padding: 100px 150px;
+    justify-content: space-between;
+}
+
+/* footer first part related styles */
+.footer-first-part h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer-first-part p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 500px;
+    color: #474747;
+}
+
+.footer-first-part a {
+    margin-right: 20px;
+}
+
+/* footer second part related styles */
+.footer-second-part {
+    width: 400px;
+}
+
+.footer-second-part h3 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.input {
+    border: none;
+    background-color: #FFFFFF;
+    padding: 18px 30px;
+    width: 300px;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    padding: 15px 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
 }
