@@ -389,11 +389,12 @@ textarea::placeholder{
 
     .sec-5-footer-container{
         flex-direction: column;
-        padding: 20px;
+        padding: 20px 0px 20px 12px;
+        background-color: red; 
     }
 
     .footer-first-part p{
-        width: 380px;
+        width: 370px;
         margin-bottom: 15px;
     }
 
