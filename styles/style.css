@@ -333,12 +333,12 @@ nav ul {
     margin-bottom: 20px;
 }
 
-textarea{
+textarea {
     resize: none;
     font-family: sans-serif;
 }
 
-textarea::placeholder{
+textarea::placeholder {
     font-family: sans-serif;
 }
 
@@ -355,44 +355,44 @@ textarea::placeholder{
 }
 
 /* responsive media query */
-.hide{
+.hide {
     display: none;
 }
 
 @media screen and (max-width: 576px) {
-    .main{
+    .main {
         margin: 0px;
     }
 
-    .sec-2{
+    .sec-2 {
         padding: 0;
         margin: 120px 20px 0px 20px;
     }
 
-    .about-items{
+    .about-items {
         flex-direction: column;
     }
 
-    .card-container{
+    .card-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .card{
-        /* margin-top: 20px; */
+    .card-margin {
+        margin-top: 20px;
     }
 
-    .sec-4-resume-container{
+    .sec-4-resume-container {
         flex-direction: column;
         margin: 0px 25px;
     }
 
-    .sec-5-footer-container{
+    .sec-5-footer-container {
         flex-direction: column;
         padding: 20px 0px 20px 10px;
     }
 
-    .footer-first-part p{
+    .footer-first-part p {
         width: 370px;
         margin-bottom: 15px;
     }
@@ -401,7 +401,7 @@ textarea::placeholder{
         margin-right: 10px;
     }
 
-    .footer-second-part{
+    .footer-second-part {
         margin-top: 100px;
     }
 }
